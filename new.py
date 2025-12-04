@@ -15,7 +15,7 @@ def random_password(length=10):
     return "".join(random.choice(chars) for _ in range(length))
 
 def random_name():
-    names = ["Arjun", "Riya", "Karan", "Aisha", "Kabir", "Meera", "Ujjawal", "Saanvi"]
+    names = ["Arjun", "Riya", "Karanu", "Aisha", "Kabir", "Meera", "Ujjawal", "Saanvi"]
     return random.choice(names)
 
 def main():
@@ -26,3 +26,4 @@ def main():
     print("Random Name:", random_name())
 
 main()
+
